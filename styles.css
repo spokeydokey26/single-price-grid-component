@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    background-color: hsl(204, 43%, 93%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: calc(100vh - 1px);
+}
+
+.container {
+    max-width: 780px; 
+    margin: 0 auto; 
+    padding: 0 1rem;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 315px;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 10px 3px hsla(100, 0%, 0%, 0.1);
+}
+
+.card-text {
+    padding: 1.5rem;
+}
+
+.community {
+    background-color: hsl(0, 0%, 100%);
+}
+
+.community h3 {
+    color: hsl(179, 62%, 43%);
+    font-size: 1.3rem;
+}
+
+.community h4 {
+    color: hsl(71, 73%, 54%);
+    margin: 1.5rem 0;
+}
+
+.community p {
+    color: hsla(218, 22%, 67%, 0.7);
+    line-height: 1.8;
+    font-size: 0.875rem;
+}
+
+.subscription {
+    background-color: hsl(179, 62%, 43%);
+}
+
+.subscription h3 {
+    color: hsl(0, 0%, 100%);
+}
+
+.subscription h4 {
+    font-size: 1rem;
+    font-weight: 400;
+    color: hsl(204, 43%, 93%, 0.7);
+    display: flex;
+    align-items: center;
+    margin: 1rem 0 0.5rem 0;
+}
+
+.subscription p {
+    color: hsl(0, 0%, 100%);
+}
+
+.subscription button {
+    font-family: 'Karla', sans-serif;
+    font-size: 1rem;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(71, 73%, 54%);
+    margin-top: 1.5rem;
+    width: 100%;
+    padding: 0.7rem 0;
+    border: none;
+    border-radius: 0.3rem;
+    box-shadow: 0 2px 10px 3px hsla(100, 0%, 0%, 0.1);
+}
+
+.subscription span {
+    color: hsl(0, 0%, 100%);
+    font-size: 2rem;
+    margin-right: 0.8rem;
+}
+
+.why-us {
+    background-color:  hsl(179, 62%, 43%, 0.6);
+}
+
+.why-us h3 {
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 1rem;
+}
+
+.why-us ul {
+    list-style: none;
+    font-size: 14px;
+}
+
+.why-us li {
+    color: hsla(204, 43%, 93%, 0.7);
+    margin-top: 0.2rem;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 768px) {
+
+    .card {
+        max-width: 625px;
+    }
+
+    .card div {
+        width: 100%;
+    }
+
+    .card-text {
+        padding: 2.5rem;
+    }
+
+    .community h3 {
+        font-size: 1.5rem;
+    }
+
+    .community h4 {
+        font-size: 1.125rem;
+        margin: 1.5rem 0 0.5rem 0;
+    }
+
+    .community p {
+        line-height: 1.7;
+        font-size: 1rem;
+    }
+
+    .bottom-panel {
+        display: flex;
+        align-items: stretch;
+        flex-direction: row;
+    }
+
+    .subscription p {
+        font-size: 0.97rem;
+    }
+
+    .subscription button {
+        font-size: 1rem;
+        padding: 0.9rem 0;
+    }
+
+    .why-us li {
+        margin-top: 0.2rem;
+    }
+}
+
